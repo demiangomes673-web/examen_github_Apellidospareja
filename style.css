@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f3f0;
+    color: #252525;
+    line-height: 1.7;
+    padding: 30px;
+}
+
+/* ENCABEZADO PRINCIPAL */
+h1 {
+    background: linear-gradient(135deg, #102b20, #16834a);
+    color: white;
+    padding: 30px;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 4px;
+    border-radius: 12px;
+    border-bottom: 5px solid #b5e61d;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+/* IMÁGENES */
+img {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+    border: 3px solid white;
+}
+
+/* TÍTULOS SECUNDARIOS */
+h2 {
+    color: #146b3a;
+    font-size: 27px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    border-left: 6px solid #a8d923;
+    padding-left: 12px;
+}
+
+/* PÁRRAFOS */
+p {
+    font-size: 16px;
+    color: #454545;
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+/* LISTAS */
+ul, ol {
+    margin: 15px 0 20px 30px;
+}
+
+li {
+    padding: 5px;
+    color: #333;
+}
+
+/* ENLACES */
+a {
+    color: #16834a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0b4727;
+    text-decoration: underline;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background: #102b20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+/* DISEÑO PARA CELULARES */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
